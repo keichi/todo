@@ -1,6 +1,9 @@
 function App() {
     const { Container, Row, Col } = ReactBootstrap;
     return (
+        <div>
+          <h1>ToDo App by Tomoki Hoshino</h1>
+        </div>
         <Container>
             <Row>
                 <Col md={{ offset: 3, span: 6 }}>
