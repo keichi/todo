@@ -3,7 +3,11 @@ function App() {
     return (
         <Container>
             <p>
-                To do app by Yujiro Tamura
+                <h2 style="text-align:center">
+                    <font size="5">
+                        To do app by Yujiro Tamura
+                    </font size>
+                </h2>
             </p>
             <Row>
                 <Col md={{ offset: 3, span: 6 }}>
