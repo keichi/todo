@@ -2,12 +2,10 @@ function App() {
     const { Container, Row, Col } = ReactBootstrap;
     return (
         <Container>
-            <p>
-                <h2 style="text-align:center">
+            <p style="text-align:center">
                     <font size="5">
                         To do app by Yujiro Tamura
                     </font size>
-                </h2>
             </p>
             <Row>
                 <Col md={{ offset: 3, span: 6 }}>
