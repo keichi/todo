@@ -90,6 +90,7 @@ function AddItemForm({ onNewItem }) {
     };
 
     return (
+        'Hallo'
         <Form onSubmit={submitNewItem}>
             <InputGroup className="mb-3">
                 <Form.Control
