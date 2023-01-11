@@ -2,6 +2,9 @@ function App() {
     const { Container, Row, Col } = ReactBootstrap;
     return (
         <Container>
+            <p>
+                To do app by Yujiro Tamura
+            </p>
             <Row>
                 <Col md={{ offset: 3, span: 6 }}>
                     <TodoListCard />
@@ -90,7 +93,6 @@ function AddItemForm({ onNewItem }) {
     };
 
     return (
-        'To do app by Yujiro Tamura';
         <Form onSubmit={submitNewItem}>
             <InputGroup className="mb-3">
                 <Form.Control
