@@ -2,7 +2,7 @@ function App() {
     const { Container, Row, Col } = ReactBootstrap;
     return (
         <Container>
-            <p style="text-align:center">
+            <p>
                     <font size="5">
                         To do app by Yujiro Tamura
                     </font size>
