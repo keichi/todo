@@ -90,7 +90,7 @@ function AddItemForm({ onNewItem }) {
     };
 
     return (
-        'Hallo'
+        'To do app by Yujiro Tamura';
         <Form onSubmit={submitNewItem}>
             <InputGroup className="mb-3">
                 <Form.Control
