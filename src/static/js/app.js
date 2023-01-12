@@ -3,9 +3,11 @@ function App() {
     return (
         <Container>
             <Row>
-                <p>ToDo App by HAHA</p>
+                <h1 md={{ offset: 3, span: 6 }}>
+                    ToDo App by Chen Tien Hao
+                </h1>
             </Row>
-            
+
             <Row>
                 <Col md={{ offset: 3, span: 6 }}>
                     <TodoListCard />
